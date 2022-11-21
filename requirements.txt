@@ -19,7 +19,7 @@ lxml==4.3.0
 MarkupSafe==1.1.0
 nbformat==4.4.0
 numpy==1.16.1
-pandas==0.24.1
+pandas
 plotly==3.6.0
 python-dateutil==2.7.5
 pytz==2018.9
@@ -37,4 +37,13 @@ requests==2.21.0
 six==1.12.0
 urllib3==1.24.2
 DateTime==4.3
+dash
+dash-core-components
+dash-html-components
+dash-renderer
+dash-table
+Flask
+Flask-Compress
+
+
 

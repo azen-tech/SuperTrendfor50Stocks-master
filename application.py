@@ -13,6 +13,7 @@ import xlsxwriter
 import plotly
 import quandl
 from plotly import tools
+from plotly import subplots
 import datetime
 from dash import dash_table as dt
 #from dash_table import DataTable
@@ -436,7 +437,7 @@ def update_fig(value,range1,Input1,Input2):
     print('final data')
 
 
-    fig = tools.make_subplots(rows=2, cols=1, specs=[[{}], [{}]],
+    fig = subplots.make_subplots(rows=2, cols=1, specs=[[{}], [{}]],
                               shared_xaxes=True, shared_yaxes=True,
                               vertical_spacing=0.001)
 
