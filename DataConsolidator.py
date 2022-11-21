@@ -1,11 +1,11 @@
 import glob
 
 import pandas as pd
-#import xlsxwriter
+import xlsxwriter
 
 #Update path below
-path = (r'Nifty 50 Companies Merged')
-filenames = glob.glob(path + "/*.csv")
+path = (r'C:\Users\user\Documents\Python Scripts\Consolidate Data')
+filenames = glob.glob(path + "\*.csv")
 print("Reading files from path" + str(path))
 
 data= []
